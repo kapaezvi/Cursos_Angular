@@ -37,8 +37,8 @@ console.log(
 
 //any
 
-const nombre: any = 'pedro';
-console.log(nombre.CharAt(0));
+const nombre: string = 'pedro';
+console.log(nombre.charAt(0));
 
 //Arreglos
 const numbers: number[] = [1, 2, 3, 4, 5, 6];
