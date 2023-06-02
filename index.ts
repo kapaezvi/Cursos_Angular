@@ -22,27 +22,28 @@ if (!isNaN(avengers)) {
   console.log('Estamos a salvo');
 }
 
-//String 
+//String
 
 const batman = 'Batman';
-const linternaVerde ="Linterna verde";
+const linternaVerde = 'Linterna verde';
 const colcanNegro = `Heroe`;
 const poder: string = 'Velocidad';
 const edad: number = 35;
 
-console.log("Yo soy "+batman);
-console.log(`Yo soy ${linternaVerde} y mi super poder es ${poder} y tengo ${edad} años`)
+console.log('Yo soy ' + batman);
+console.log(
+  `Yo soy ${linternaVerde} y mi super poder es ${poder} y tengo ${edad} años`
+);
 
 //any
 
-const nombre: any ='pedro';
+const nombre: any = 'pedro';
 console.log(nombre.CharAt(0));
 
 //Arreglos
-const numbers: number[] = [1,2,3,4,5,6];
+const numbers: number[] = [1, 2, 3, 4, 5, 6];
 numbers.push(1);
 console.log(numbers);
 
 const codigo: string = '12345';
-console.log()
-
+console.log(codigo.toString());
