@@ -47,3 +47,12 @@ console.log(numbers);
 
 const codigo: string = '12345';
 console.log(codigo.toString());
+
+//tuplas
+
+const hero: [string, number, boolean] = ['Dr strange', 10, true];
+
+hero[0] = 'Ironman';
+hero[1] = 50;
+hero[2] = false;
+console.log(hero[1]);
